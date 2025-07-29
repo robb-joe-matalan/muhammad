@@ -113,11 +113,10 @@ stages:
             inputs:
               targetType: 'inline'
               script: |
-                Write-Host "##[section]From: Joe (Infrastructure Ninja)"
-                Write-Host "Remember that time we accidentally deleted prod?"
-                Write-Host "Just kidding - that was the other team 😂"
-                Write-Host "Your monitoring setup saved us countless times"
-                Write-Host "Go make their infrastructure legendary!"
+                Write-Host "##[section]From: Joe (Average developer!)"
+                Write-Host "All the best Muhammed, it's been a pleasure to work with you"
+                Write-Host "I'll miss our Friday morning scrambles to get screens ready for demo!"
+                Write-Host "Take care bro"
 
           - task: PowerShell@2
             displayName: '👩‍🔬 Message from Yasemin'
